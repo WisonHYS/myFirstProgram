@@ -1,0 +1,28 @@
+PODS:
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - LKDBHelper (2.1.6):
+    - FMDB
+  - Masonry (0.6.3)
+  - Reachability (3.2)
+  - YSASIHTTPRequest (2.0.1):
+    - YSASIHTTPRequest/Core (= 2.0.1)
+  - YSASIHTTPRequest/Core (2.0.1):
+    - Reachability
+
+DEPENDENCIES:
+  - LKDBHelper (~> 2.1.6)
+  - Masonry (~> 0.6.3)
+  - YSASIHTTPRequest (~> 2.0.1)
+
+SPEC CHECKSUMS:
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  LKDBHelper: 6df8665e44ff444836dcae89dcd095ffc7f9de48
+  Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  YSASIHTTPRequest: 52fe05fcfb0c903329c3b7c6714fbf683d13f81e
+
+COCOAPODS: 0.39.0
